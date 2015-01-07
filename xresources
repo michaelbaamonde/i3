@@ -28,6 +28,12 @@ URxvt.tabbed.autohide: true
 URxvt.tabbed.new-button: false
 URxvt.tabbed.title: true
 
+! copy/paste
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.Shift-Control-C: perl:clipboard:on_sel_grab
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+
 ! Darkburn color-scheme
 URxvt*background: #111111
 URxvt*foreground: #eeeeee
